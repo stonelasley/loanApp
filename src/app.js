@@ -20,6 +20,11 @@ angular.module('applicationApp', ['ngAnimate', 'ui.router'])
         templateUrl: 'application-profile.html'
       })
 
+      .state('application.confirmation', {
+        url: '/confirmation',
+        templateUrl: 'application-confirmation.html'
+      });
+
     $urlRouterProvider.otherwise('/application/car');
   })
 
