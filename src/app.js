@@ -15,6 +15,11 @@ angular.module('applicationApp', ['ngAnimate', 'ui.router'])
         templateUrl: 'application-car.html'
       })
 
+      .state('application.profile', {
+        url: '/profile',
+        templateUrl: 'application-profile.html'
+      })
+
     $urlRouterProvider.otherwise('/application/car');
   })
 
