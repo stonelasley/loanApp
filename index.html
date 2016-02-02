@@ -2,16 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Application</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
 
-PREPARE YOUR BODY
+<body ng-app="applicationApp">
+
+<div class="container">
+    <div class="row">
+        <div ui-view></div>
+    </div>
+</div>
+
+</body>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="node_modules/angular/angular.js"></script>
 <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
 <script src="node_modules/angular-animate/angular-animate.js"></script>
+<script src="src/app.js"></script>
 </body>
 </html>
