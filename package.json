@@ -1,0 +1,22 @@
+{
+  "name": "prestige-financial-loan-application",
+  "version": "0.0.1",
+  "description": "Prestige Financial Loan Application Proof of Concept",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ls"
+  },
+  "author": "Stone C. Lasley",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.9",
+    "angular-animate": "^1.4.9",
+    "angular-ui-router": "^0.2.17",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.0"
+  }
+}
